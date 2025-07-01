@@ -71,8 +71,8 @@ chrono = { version = "0.4", features = ["now"] ,optional = true }
 
 async-trait = "0.1"
 async-stream = "0.3.5"
-tonic = "0.12"
-tower = { version = "0.4.13", features = ["filter", "log"] }
+tonic = "0.13"
+tower = { version = "0.5.2", features = ["filter", "log"] }
 futures-util = "0.3.28"
 want = "0.3.0"
 dashmap = "5.4.0"
@@ -82,7 +82,7 @@ dotenvy = "0.15"
 
 [dev-dependencies]
 tracing-subscriber = { version = "0.3", features = ["default"] }
-tonic-build = "0.12"
+tonic-build = "0.13"
 mockall = { version = "0.11" }
 
 
